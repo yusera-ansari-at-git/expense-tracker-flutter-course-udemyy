@@ -8,7 +8,7 @@ var kColorSheme = ColorScheme.fromSeed(
 
 var kDarkColorScheme = ColorScheme.fromSeed(
   brightness: Brightness.dark,
-  seedColor: Color.fromRGBO(53, 4, 21, 1),
+  seedColor: Color.fromRGBO(53, 4, 27, 1),
 );
 void main() {
   runApp(const MyApp());
