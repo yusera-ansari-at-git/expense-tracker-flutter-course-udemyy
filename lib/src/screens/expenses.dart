@@ -39,15 +39,11 @@ class _ExpensesState extends State<Expenses> {
   void _openAddExpenseOverlay() {
     showModalBottomSheet(
         useSafeArea: true,
-        showDragHandle: true,
+        // showDragHandle: true,
         isScrollControlled: true,
         context: context,
         builder: (_) {
-          return Column(
-            children: [
-              NewExpense(onAddExpense: _addExpense),
-            ],
-          );
+          return NewExpense(onAddExpense: _addExpense);
         });
   }
 
